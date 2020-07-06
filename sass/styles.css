@@ -1,0 +1,361 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat';
+  background-color: #ddd;
+}
+
+.main-header {
+  background-color: #40369f;
+  color: #ccc;
+  padding: 10px;
+}
+
+.main-header span {
+  margin-right: 10px;
+}
+
+.main-header .column1 {
+  text-align: left;
+}
+
+.main-header .column2 {
+  text-align: right;
+}
+
+.main-header .button {
+  border-style: solid;
+  border-color: rgba(255, 0, 0, 0.568);
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.main-header a:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+  background-color: #5347c1;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.navbar ul {
+  text-transform: uppercase;
+  margin: 5px;
+  color: #ccc;
+  font-weight: bold;
+}
+
+.navbar-brand span:first-child {
+  font-size: 40px;
+  font-weight: bold;
+  color: #40369f;
+}
+
+.navbar-brand span:last-child {
+  font-size: 40px;
+  color: rgba(255, 0, 0, 0.568);
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #40369f;
+}
+
+.box1 {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel1 {
+  background-image: url(../images/man.jpg);
+}
+
+.carousel2 {
+  background-image: url(../images/tree.jpg);
+}
+
+.carousel3 {
+  background-image: url(../images/see.jpg);
+}
+
+.overlay {
+  position: absolute;
+  background-color: #00000091;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+
+.overlay .container {
+  color: #fff;
+  text-transform: capitalize;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  height: 100%;
+  line-height: 1.5;
+}
+
+.overlay .container h1 span {
+  color: rgba(255, 0, 0, 0.568);
+  font-size: 60px;
+}
+
+.features {
+  background-color: #fff;
+}
+
+.features i {
+  background-color: rgba(255, 0, 0, 0.568);
+  color: #fff;
+  padding: 12px;
+  margin: 20px;
+}
+
+.features h1 {
+  color: #40369f;
+}
+
+.overview {
+  height: 400px;
+  text-align: center;
+}
+
+.overview .container1 {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.overview h1 {
+  font-weight: bold;
+  line-height: 1.5;
+  text-transform: uppercase;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.overview p {
+  width: 600px;
+}
+
+.overview h3 {
+  margin-top: 30px;
+  text-transform: full-width;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 17px;
+}
+
+.overview .button {
+  margin-top: 30px;
+  background-color: rgba(255, 0, 0, 0.568);
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.work {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #fff;
+  padding: 30px;
+}
+
+.work li {
+  margin: 10px;
+  border: solid;
+  border-color: #40369f;
+  padding: 5px 10px;
+  letter-spacing: 2px;
+}
+
+.work li.active {
+  background-color: rgba(255, 0, 0, 0.568);
+}
+
+.work li:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.568);
+}
+
+.portfolio .row {
+  margin: 0;
+}
+
+.portfolio img {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio .imag {
+  padding: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.reviews {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/see.jpg);
+}
+
+.reviews .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #00000093;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.reviews .container {
+  margin-top: 60px;
+}
+
+.reviews .container strong {
+  font-size: x-large;
+}
+
+.reviews .container small {
+  margin-bottom: 20px;
+}
+
+.reviews .container p {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.reviews .container hr {
+  height: 2px;
+  background-color: #fff;
+}
+
+.reviews .container .imag img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.reviews .arrows1 {
+  border: none;
+  width: 30px;
+  height: 40px;
+  background-color: red;
+  margin: 30px;
+  top: 200px;
+}
+
+.reviews .bullet {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+}
+
+.whyus {
+  background-color: #40369f;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.whyus img {
+  width: 100%;
+  height: 100%;
+}
+
+.whyus h2 {
+  font-weight: bolder;
+  margin: 20px;
+}
+
+.whyus .btn {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  padding: 10px;
+}
+
+.footer .column1 span:first-child {
+  font-size: 40px;
+  font-weight: bold;
+  color: #40369f;
+}
+
+.footer .column1 span:nth-child(2) {
+  font-size: 40px;
+  color: rgba(255, 0, 0, 0.568);
+}
+
+.footer .column1 a:before {
+  font-family: 'FontAwesome';
+  content: "\f138";
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer h4 {
+  color: #40369f;
+}
+
+.footer .column2 {
+  text-align: left;
+}
+
+.footer .column2 li a:before {
+  font-family: 'FontAwesome';
+  content: "\f054";
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.copyright p {
+  display: inline-block;
+}
+
+.copyright ul {
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.copyright li {
+  display: inline-block;
+}
+/*# sourceMappingURL=styles.css.map */
